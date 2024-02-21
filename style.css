@@ -1,0 +1,113 @@
+body{padding-top: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+body>div{
+    position: relative;
+}
+.pillar{
+    height: 200px;
+    width: 30px;
+    background-color: rgb(244, 243, 242);
+    border: 7px solid rgb(169, 168, 168);
+    border-bottom: 0;
+}
+#pillar1{
+position: absolute;
+top: -207px;
+left: 200px;
+}
+#pillar2{
+position: absolute;
+top: -207px;
+right: 200px;
+}
+#pillar3{
+    height: 250px;
+    width: 30px;
+position: absolute;
+top: -257px;
+right: 280px;
+background-color: rgb(244, 243, 242);
+border: 7px solid rgb(169, 168, 168);
+border-bottom: 0;
+}
+#pillar4{
+    height: 250px;
+    width: 30px;
+position: absolute;
+top: -257px;
+left: 280px;
+background-color: rgb(244, 243, 242);
+border: 7px solid rgb(169, 168, 168);
+border-bottom: 0;
+}
+#round{
+    position: absolute;
+    top: -290px;
+    left: 366px;
+    z-index: -1;
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    background-color: red;
+}
+.rod{
+    height:350px ;
+width: 10px;
+background-color: 
+rgb(169, 168, 168);
+border: 1px solid rgb(0, 0, 0);
+border-bottom: 0;
+position: absolute;
+top: -350px;
+}
+#rod1{
+    left: 380px;
+}
+#rod2{
+    right: 380px;
+}
+#rod3{
+    right: 470px;
+}
+#rod4{    height:10px ;
+    width: 190px;
+    background-color: 
+    rgb(169, 168, 168);
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    top: -360px;
+    right: 380px;
+}
+.siri{
+    border: 1px solid black;
+    border-bottom: 0;
+    margin: auto;
+    padding: auto;
+    height: 18px;
+    width: 800px;
+    background-color: rgb(169, 168, 168);
+}
+#siri1{
+    width:850px ;
+}
+#siri2{
+    width:900px ;
+}
+#siri3{
+    width:950px ;
+    
+}
+
+
+
+
+
+
+
+
+
+
